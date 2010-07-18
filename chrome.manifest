@@ -1,0 +1,4 @@
+content twithere jar:chrome/twithere.jar!/content/
+locale	twithere	en-US		jar:chrome/twithere.jar!/locale/en-US/
+skin	twithere	classic/1.0	jar:chrome/twithere.jar!/skin/
+overlay chrome://browser/content/browser.xul chrome://twithere/content/twithere.xul

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://twithere/skin/twithere.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://twithere/locale/twithere.dtd">
+
+<overlay id="twithere" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<popup id="contentAreaContextMenu">
+		<menuitem id="hw_contextMenu" label="Tweet this page." 
+			oncommand="tweetCurrentPage();"/>
+	</popup>
+
+	<script type="application/x-javascript" src="tweet.js" />
+</overlay>
