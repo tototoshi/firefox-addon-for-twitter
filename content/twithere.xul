@@ -7,7 +7,7 @@
 
 <overlay id="twithere" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<popup id="contentAreaContextMenu">
-		<menuitem id="hw_contextMenu" label="Tweet this page." 
+		<menuitem id="hw_contextMenu" label="Tweet this page" 
 			oncommand="tweetCurrentPage();"/>
 	</popup>
 
