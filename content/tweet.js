@@ -1,5 +1,8 @@
 function tweetCurrentPage(){
 	var title = document.getElementById('content').webNavigation.document.title;
+	if(title == null){
+		title = "";
+	}
 	var url = document.getElementById('content').webNavigation.currentURI.spec;
 	window.open(
 			'http://twitter.com/home?status=' +
@@ -9,5 +12,3 @@ function tweetCurrentPage(){
 	);
 	return void(0);
 }
-
-
