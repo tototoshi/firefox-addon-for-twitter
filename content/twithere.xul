@@ -6,10 +6,8 @@
 <!DOCTYPE window SYSTEM "chrome://twithere/locale/twithere.dtd">
 
 <overlay id="twithere" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	<popup id="contentAreaContextMenu">
-		<menuitem id="hw_contextMenu" label="Tweet this page" 
-			oncommand="tweetCurrentPage();"/>
-	</popup>
-
-	<script type="application/x-javascript" src="tweet.js" />
+  <popup id="contentAreaContextMenu">
+    <menuitem id="hw_contextMenu" label="このページについてつぶやく" oncommand="tweetCurrentPage();"/>
+  </popup>
+  <script type="application/x-javascript" src="tweet.js" />
 </overlay>
