@@ -6,8 +6,20 @@
 <!DOCTYPE window SYSTEM "chrome://twithere/locale/twithere.dtd">
 
 <overlay id="twithere" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <popup id="contentAreaContextMenu">
-    <menuitem id="hw_contextMenu" label="このページについてつぶやく" oncommand="tweetCurrentPage();"/>
-  </popup>
+  <script type="application/x-javascript" src="sprintf-0.7-beta1.js" />
   <script type="application/x-javascript" src="tweet.js" />
+  <popup id="contentAreaContextMenu">
+    <menu id="twithere-menu"
+          label="Twitter"
+          insertbefore="frame-sep">
+      <menupopup id="twithere-submenu">
+        <menuitem id="hw_contextMenu1"
+                  label="つぶやく"
+                  oncommand="tweet();"/>
+        <menuitem id="hw_contextMenu2"
+                  label="このページについてつぶやく"
+                  oncommand="tweetCurrentPage();"/>
+      </menupopup>
+    </menu>
+  </popup>
 </overlay>
