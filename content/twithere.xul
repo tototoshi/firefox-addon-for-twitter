@@ -8,6 +8,12 @@
 <overlay id="twithere" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script type="application/x-javascript" src="sprintf-0.7-beta1.js" />
   <script type="application/x-javascript" src="tweet.js" />
+
+  <keyset id="mainKeyset">
+    <key id="hw_contextMenu1_key" key="T" oncommand="tweet();"/>
+    <key id="hw_contextMenu2_key" modifiers="shift" key="T" oncommand="tweetCurrentPage();"/>
+  </keyset>
+
   <popup id="contentAreaContextMenu">
     <menu id="twithere-menu"
           label="Twitter"
