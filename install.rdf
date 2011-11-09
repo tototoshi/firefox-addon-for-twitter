@@ -9,16 +9,16 @@
 		<em:description>Tweet current page</em:description>
 		<em:creator>toshi</em:creator>
 		<em:id>twithere@ttoshi.ddo.jp</em:id>
-		
+
 		<em:targetApplication>
 			<!-- Firefox -->
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>1.5</em:minVersion>
-				<em:maxVersion>7.*</em:maxVersion>
+				<em:maxVersion>8.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
-		
+
 		<em:iconURL></em:iconURL>
 		<em:homepageURL></em:homepageURL>
 	</Description>
